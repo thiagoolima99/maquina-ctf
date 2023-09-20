@@ -1,0 +1,59 @@
+html,body {
+	margin: 0px;
+}
+
+.title-home {
+    font-family: serif;
+    font-style: italic;
+}
+
+.font-serif{
+    font-family: serif;
+}
+
+.btn-dev {
+	padding: 10px;
+    border: 1px solid #77948c;
+    border-radius: 50px 45px 0px 50px;
+    background: #6e8c76;
+    color: white;
+}
+
+.text-orange{
+    color: #de8526;
+}
+
+.bg-orange{
+    background-color: #e89f49;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+footer{
+	background: #ffab62;
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+	footer{
+        position: relative;
+    }
+
+}
+
+@media only screen and (max-height: 450px) {
+
+	footer{
+        position: relative;
+    }
+
+}

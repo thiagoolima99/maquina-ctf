@@ -1,0 +1,1 @@
+* * * * * curl $(cat /var/opt/website.txt) > /home/ti/is_alive.txt
