@@ -44,9 +44,9 @@ RUN chown ti:ti /var/opt/website.txt
 RUN chmod 660 /var/opt/website.txt
 
 #Zip
-COPY files/info.zip /home/ti/info.zip
+COPY files/info.zip /tmp
 RUN chown ti:ti /home/ti/info.zip
-RUN chmod 644 /home/ti/info.zip
+RUN chmod 744 /tmp/info.zip
 
 #Exposed Ports
 EXPOSE 80
